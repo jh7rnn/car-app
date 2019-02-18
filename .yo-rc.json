@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "carApp",
+    "packageName": "com.jh.car.app",
+    "packageFolder": "com/jh/car/app",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.1",
+    "jwtSecretKey": "YjI0ZDEyZTM4MTg1YmJjZjY1YTc5NzQ4YThkZTViYjg2NWY1Y2FjZGI5NmYwMjNmZTg0NzRhNmEyMWEwODFhZmI4YTFhZjM0MmE4N2M5YzlhMmFjYmQ5Mjk3ZTVlMzI5MTFmN2IxOTM0OWI5MWYwNTU5MjE1ZDY0NmM0ZmIxZjQ=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "jh7rnn",
+  "repository-name": "car-app"
+}
